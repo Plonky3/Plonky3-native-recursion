@@ -28,8 +28,8 @@ rand.workspace = true
 thiserror.workspace = true
 
 [dev-dependencies]
-p3-blake3 = { path = "../blake3" }
-p3-keccak = { path = "../keccak" }
+p3-blake3 = { workspace = true }
+p3-keccak = { workspace = true }
 
 postcard = { workspace = true, features = ["alloc"] }
 rand = { workspace = true, features = ["std_rng"] }

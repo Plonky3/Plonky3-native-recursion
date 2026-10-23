@@ -15,7 +15,7 @@ p3-multilinear-util.workspace = true
 p3-util.workspace = true
 
 [dev-dependencies]
-p3-baby-bear = { path = "../baby-bear" }
+p3-baby-bear = { workspace = true }
 
 proptest.workspace = true
 
